@@ -1,0 +1,11 @@
+digraph "prometheus.Calc.do_sum"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="prometheus.Calc.do_sum",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node2 [label="prometheus.Calc.calc\l_total",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classprometheus_1_1_calc.html#af793a58cceed8c017b95994ecf081c8b"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node3 [label="prometheus.Calc.operation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classprometheus_1_1_calc.html#a847ac31ac113eb612cf4fff346077706"];
+}

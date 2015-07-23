@@ -1,0 +1,24 @@
+digraph "prometheus_cli.Sine.sine_degrees"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="prometheus_cli.Sine.sine\l_degrees",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="prometheus.Sine.sine\l_radians",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classprometheus_1_1_sine.html#a2db3bb19693275b022d26d6ad1f03fa8"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="prometheus.Sine.fact",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classprometheus_1_1_sine.html#a1dfebb4deff04ae55ab5706eaf5e2b44"];
+  Node3 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="prometheus_cli.Sine.sine\l_radians",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classprometheus__cli_1_1_sine.html#ad4833c27f7d140d44ba6d2a699013055"];
+  Node4 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="prometheus.Cosine.fact",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classprometheus_1_1_cosine.html#a65c3b1162f86debd5ccb153d65f880a8"];
+  Node5 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="prometheus_cli.Sine.fact",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classprometheus__cli_1_1_sine.html#a18fd347866f39197b3dc6a355fc86c02"];
+  Node6 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}
