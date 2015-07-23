@@ -1,6 +1,7 @@
 # Prometheus
 Prometheus is a scientific calculator made with Python.
 
+
 	Sine 
 1.	Start
 2.	Read the input "y" via GUI.
